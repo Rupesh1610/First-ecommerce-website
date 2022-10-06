@@ -1,0 +1,25 @@
+.product-card {
+  width: 20rem;
+  margin: 0.5rem;
+  box-shadow: -0.3px 2px 1px 1px #EEEEEE;
+}
+.product-card div {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.product-card div h5 {
+  color: black;
+}
+.product-card div p {
+  color: lightseagreen;
+}
+.product-card img {
+  width: 250px;
+  height: 250px;
+}
+
+.product-card:hover {
+  box-shadow: -0.4px 2px 2px 3px #EEEEEE;
+}/*# sourceMappingURL=product.css.map */

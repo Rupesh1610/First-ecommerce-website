@@ -1,0 +1,37 @@
+div {
+
+    hr {
+        border-top: 8px dotted gray;
+        border-bottom: 0;
+        border-right: 0;
+        border-left: 0;
+        width: 250px;
+    }
+
+    h3 {
+        font-family: 'Lobster';
+    }
+
+    .mycategories {
+
+        width: 80%;
+        margin: 2rem auto;
+
+        .mycategory {
+
+            cursor: pointer;
+        }
+    }
+
+    @media screen and (max-width:720px) {
+        .categories {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .products {
+        width: 90%;
+        margin: 2rem auto 0;
+    }
+}
